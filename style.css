@@ -91,8 +91,8 @@ header{
 .jumbo{
   background-color: var(--bluejumbo);
   margin-top: 70px;
-  height: 700px;
-  padding-top: 60px;
+  height: 680px;
+  padding-top: 70px;
 }
 
 .jumbo-content{
@@ -105,11 +105,20 @@ header{
   font-weight: bold;
 }
 
+.jumbo p{
+  line-height: 20px;
+}
+
+.jumbo p, .jumbo button{
+  margin-bottom: 30px;
+
+}
+
 .text-left{
   position: absolute;
   left: 0;
   top: 230px;
-  height: 400px;
+  height: 380px;
   width: 350px;
   background-color: red;
 
@@ -120,8 +129,8 @@ header{
   right: 0;
   top: 230px;
   background-color: red;
-  width: 800px;
-  height: 460px;
+  width: 780px;
+  height: 450px;
  
 }
 
