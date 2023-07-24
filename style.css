@@ -20,17 +20,12 @@
   --bluefooter:#F5F5F5;
 }
 
-.container1{
-  width: 80%;
+.container{
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.container2{
-  width: 70%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .flex{
   display: flex;
@@ -70,7 +65,7 @@
 /* HEADER */
 
 header{
-  background-color: red; /* eliminare */
+  background-color: white;
   height: 70px;
   padding: 20px;
   position: fixed;
@@ -92,6 +87,7 @@ header{
 /* MAIN */
 
 /* JUMBO */
+
 
 .jumbo{
   background-color: var(--bluejumbo);
@@ -140,13 +136,21 @@ header{
  
 }
 
+/* CONTENUTI */
+
+.container-contenuti .container{
+  width: 70%;
+}
+
 /* SECTION-COLONNE */
+
+
 
 .section-colonne{
   padding-top: 150px;
 }
 
-.section-colonne h3{
+#titolo-section-colonne{
   font-size: 40px;
   margin-bottom: 50px;
 }
@@ -163,6 +167,63 @@ header{
 
 .section-colonne span{
   margin-right: 30px;
+}
+
+.col-title{
+  margin-top: 50px;
+  width: 30%;
+  padding: 15px;
+  border: 1px solid rgba(214, 211, 211, 0.726);
+  text-align: center;
+  
+}
+
+.col{
+  width: 30%;
+  height: 300px;
+  border: 1px solid rgba(214, 211, 211, 0.726);
+  padding: 30px;
+}
+
+/* SECTION COLONNA HORIZONTALE */
+
+.bar-container-colonna{
+  margin-top: 50px;
+  width: 100%;
+  border: 1px solid rgba(214, 211, 211, 0.726);
+  padding: 15px;
+  text-align: center;
+}
+
+.text-container-colonna{
+  width: 100%;
+  border: 1px solid rgba(214, 211, 211, 0.726);
+  padding: 15px;
+  text-align: center;
+  height: 200px; 
+}
+
+/* SECTION IMAGE TEXT BIG */
+
+.image-text-big{
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.image-text-big .img{
+  width: 55%;
+  background-color: red;
+  height: 500px;
+  justify-content: flex-start;
+
+}
+
+.image-text-big .text{
+  width: 30%;
+  background-color: rosybrown;
+  height: 500px;
+  padding: 40px 25px;
+
 }
 
 
