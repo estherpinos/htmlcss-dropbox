@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bluejumbo: #B4D0E7;
+  --bluebutton:#0061FF;
+  --greenbox: #A2D39B;
+  --purplebox:#61082B;
+  --bluemiddle:#0093CE;
+  --redtopps: #FF1C1C;
+  --redworld:#D5001F;
+  --bluehearst: #B4D0E7;
+  --bluelonelu: #0D2481;
+  --yellowclearchannel:#FFD830;
+  --whitebigbox:#F5F5F5;
+  --bluefooter:#F5F5F5;
+}
+
+.container1{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container2{
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-contents-center{
+  justify-content: center;
+}
+
+.justify-contents-between{
+  justify-content: space-between;
+}
