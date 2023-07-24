@@ -222,10 +222,64 @@ header{
 
 .col{
   width: 30%;
-  height: 300px;
   border: 1px solid rgba(214, 211, 211, 0.726);
   padding: 30px;
 }
+
+.col h3{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.col p{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.p-grey{
+  color: gray;
+}
+
+.col nav{
+  margin-top: 40px;
+}
+
+.col li{
+  list-style: none;
+  margin-bottom: 20px;
+  
+}
+
+.col .btn{
+  background-color: var(--bluebutton);
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+hr{
+ border-color:  rgba(214, 211, 211, 0.7);
+ width: 40px;
+ margin: 30px 0;
+}
+
+.icon-text i {
+  float: left;
+}
+
+.icon-text span{
+  float: right;
+}
+  
+
+
+
+
+
+
+
 
 /* SECTION COLONNA HORIZONTALE */
 
@@ -240,9 +294,31 @@ header{
 .text-container-colonna{
   width: 100%;
   border: 1px solid rgba(214, 211, 211, 0.726);
-  padding: 15px;
+  padding: 30px;
   text-align: center;
   height: 200px; 
+}
+.text-box-left{
+  text-align: left;
+  width: 65%;
+}
+
+.text-box-left :nth-child(2){
+  margin-bottom: 40px;
+}
+.text-box-left h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.text-box-left p{
+  font-size: 15px;
+}
+
+.btn-right-box .btn{
+  padding: 10px 35px;
+  background-color: var(--bluebutton);
+  color: white;
 }
 
 /* SECTION IMAGE TEXT BIG */
