@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:sans-serif;
 }
 
 :root{
@@ -35,6 +36,7 @@
   display: flex;
 }
 
+
 .justify-contents-center{
   justify-content: center;
 }
@@ -67,6 +69,11 @@ header{
   background-color: red; /* eliminare */
   height: 70px;
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
 }
 
 .row{
@@ -75,6 +82,47 @@ header{
 
 .menu-header, .logo-header, .btn-header{
   margin-right: 20px;
+}
+
+/* MAIN */
+
+/* JUMBO */
+
+.jumbo{
+  background-color: var(--bluejumbo);
+  margin-top: 70px;
+  height: 700px;
+  padding-top: 60px;
+}
+
+.jumbo-content{
+  position: relative;
+
+}
+
+.jumbo h1{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.text-left{
+  position: absolute;
+  left: 0;
+  top: 230px;
+  height: 400px;
+  width: 350px;
+  background-color: red;
+
+}
+
+.image-jumbo{
+  position: absolute;
+  right: 0;
+  top: 230px;
+  background-color: red;
+  width: 800px;
+  height: 460px;
+ 
 }
 
 
