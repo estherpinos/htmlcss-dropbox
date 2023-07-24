@@ -57,9 +57,20 @@
 }
 
 .btn{
-  padding: 5px 10px;
+  padding: 8px 15px;
+  border: none;
 
 }
+
+.btn:hover{
+  box-shadow: gray 0 0 10px 0;
+  scale: 1.01;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
 
 
 /* HEADER */
@@ -82,6 +93,22 @@ header{
 
 .menu-header, .logo-header, .btn-header{
   margin-right: 20px;
+}
+
+.menu-header a{
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.menu-header:hover a{
+  text-decoration-line: underline;
+  text-underline-offset: 175%;
+}
+
+.row .btn{
+  background-color: var(--bluebutton);
+  color: white;
 }
 
 /* MAIN */
@@ -115,31 +142,46 @@ header{
 
 }
 
+.jumbo .btn{
+  background-color: var(--bluebutton);
+  color: white;
+}
+
+
 .text-left{
   position: absolute;
   left: 0;
   top: 120%;
   height: 380px;
   width: 30%;
-  background-color: red;
 
+}
+
+.fa-arrow-down{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 70px;
+  color: black;
 }
 
 .image-jumbo{
   position: absolute;
   right: 0;
   top: 120%;
-  background-color: red;
   width: 65%;
   height: 450px;
   min-width: 300px;
  
 }
 
+.jumbo img{
+  width: 100%;
+}
+
 /* CONTENUTI */
 
 .container-contenuti .container{
-  width: 70%;
+  width: 60%;
 }
 
 /* SECTION-COLONNE */
@@ -224,6 +266,23 @@ header{
   height: 500px;
   padding: 40px 25px;
 
+}
+
+/* SECTION OPERAZIONI */
+
+.box-operazioni{
+  margin-top: 60px;
+  background-color: pink;
+  width: calc(100% / 3);
+  height: 500px;
+  padding-right: 20px;
+  border: 1px solid red;
+
+  
+}
+
+.operazioni h2{
+  font-size: 40px;
 }
 
 
