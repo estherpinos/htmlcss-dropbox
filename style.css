@@ -42,3 +42,40 @@
 .justify-contents-between{
   justify-content: space-between;
 }
+
+.display-inline{
+  display: inline-block;
+}
+
+.align-items{
+  align-items: center;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.btn{
+  padding: 5px 10px;
+
+}
+
+
+/* HEADER */
+
+header{
+  background-color: red; /* eliminare */
+  height: 70px;
+  padding: 20px;
+}
+
+.row{
+  height: 100%;
+}
+
+.menu-header, .logo-header, .btn-header{
+  margin-right: 20px;
+}
+
+
+
