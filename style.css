@@ -432,21 +432,55 @@ hr{
 
 /* SECTION COLOR BOXES */
 
-.color-boxes{
-  height: 700px;
-  margin: 20px 0;
-}
 
 .color-box{
   width: calc(100% / 3);
+  height: 100%;
   background-color: red;
   border: 1px solid black;
+  aspect-ratio: 1.1;
 }
 
-.mini-box-color{
+.mini-box-color img{
+  width: 60%;
+  height: 100%;
   
 }
 
+.mini-box-color{
+
+  width: calc(100% / 2);
+  height: auto;
+  border: 1px solid beige; 
+
+}
+
+/* SECTION FOOTER BLUE */
+
+.footer-blue{
+  background-color: var(--bluehearst);
+  height:350px
+}
+
+.text-section-blue{
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  height: 100%;
+
+}
+
+.text-section-blue h2{
+  color: var(--purplebox);
+}
+
+
+.text-section-blue button{
+  color: black;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 15px;
+}
 
 
 
