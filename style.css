@@ -247,6 +247,12 @@ header{
   width: 30%;
   border: 1px solid rgba(214, 211, 211, 0.726);
   padding: 30px;
+  
+}
+
+.list-col{
+
+  height: 20%;
 }
 
 .col h4{
@@ -279,6 +285,7 @@ header{
   color: white;
   margin-top: 30px;
   margin-bottom: 20px;
+  
 
 }
 
@@ -463,7 +470,7 @@ hr{
 
 .box-middle-text{
   width: 100%;
-  padding: 30px;
+  padding: 50px;
   margin: 0 auto;
   height: 100%;
   flex-direction: column;
@@ -517,6 +524,10 @@ hr{
 }
 
 
+.design:hover{
+  border: 20px solid rgb(184, 243, 184);
+}
+
 
 
 
@@ -549,6 +560,10 @@ hr{
 }
 
 /* SECTION OPZIONI */
+
+.container-domande{
+  width: 60%;
+}
 
 .options h1{
   padding: 100px 0 70px 0;
@@ -598,6 +613,69 @@ hr{
 .option:hover .text-opacity{
   opacity: 1;
 }
+
+
+/* MENU FOTTER */
+
+.menu-footer{
+  background-color: black;
+  padding: 100px 0 130px 0;
+  height: 750px;
+}
+
+.menus-footer{
+  width: 100%;
+  height: 100%;
+
+}
+
+.col-footer{
+  padding-right: 30px;
+}
+
+.col-footer h3{
+  color: white;
+  margin-bottom: 30px;
+}
+
+.col-footer li{
+  color: white;
+  list-style: none;
+  padding: 18px 0;
+  font-size: 18px;
+}
+
+.col-footer{
+  width: calc(100% / 5);
+  flex-direction: column;
+  display: inline-block;;
+}
+
+.box-lenguage{
+  width: 50px;
+  align-items: center;
+}
+
+.lenguage{
+  flex-direction: row;
+  color: gray;
+  height: 100%;
+  align-items: center;
+  
+}
+
+.lenguage p{
+  padding: 0 20px;
+  height: 100%;
+  font-size: 18px;
+  
+}
+
+#hr-footer{
+  width: 10%;
+}
+
+
 
 
 
