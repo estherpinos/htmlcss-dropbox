@@ -176,7 +176,8 @@ header{
 
 .fa-arrow-down{
   margin-top: 50px;
-
+  position: absolute;
+  bottom: 45px;
   z-index: 998;
   font-weight: bold;
   font-size: 70px;
@@ -549,14 +550,14 @@ hr{
 
 /* SECTION OPZIONI */
 
-.hola h1{
+.options h1{
   padding: 100px 0 70px 0;
 }
 .opzioni-domande{
   width: 100%;
 }
 
-.hola{
+.options{
   margin-bottom: 100px;
 }
 
@@ -573,15 +574,32 @@ hr{
   font-weight: bold;
   float: left;
   margin-right: 30px;
+  z-index: 999;
+  margin-bottom: 10px;
   
 }
 
 .option i{
   float: right;
-  padding-left: 40px;
-  
+  padding-left: 40px; 
+}
+
+.option{
+  opacity: 1;
   
 }
+
+.text-opacity{
+  opacity: 0;
+  font-weight: lighter;
+}
+
+
+.option:hover .text-opacity{
+  opacity: 1;
+}
+
+
 
 
 
