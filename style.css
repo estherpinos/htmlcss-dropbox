@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
   font-family: 'Open Sans', sans-serif;
 }
 
 h1{
   font-size: 50px;
   font-weight: 900;
-  
+
 }
 h2{
   font-size: 40px;
@@ -98,7 +98,7 @@ header{
   top: 0;
   left: 0;
   z-index: 999;
-  
+
 }
 
 .row{
@@ -170,13 +170,13 @@ header{
   height: 380px;
   width: 30%;
   min-width: 30%;
-  
+
 
 }
 
 .fa-arrow-down{
   margin-top: 50px;
-  
+
   z-index: 998;
   font-weight: bold;
   font-size: 70px;
@@ -193,7 +193,7 @@ header{
   min-width: 65%;
   height: 450px;
   min-width: 300px;
- 
+
 }
 
 .jumbo img{
@@ -239,7 +239,7 @@ header{
   padding: 15px;
   border: 1px solid rgba(214, 211, 211, 0.726);
   text-align: center;
-  
+
 }
 
 .col{
@@ -269,7 +269,7 @@ header{
 .col li{
   list-style: none;
   margin-bottom: 20px;
-  
+
 }
 
 .col .btn{
@@ -294,7 +294,7 @@ hr{
 .icon-text span{
   float: right;
 }
-  
+
 
 
 
@@ -318,7 +318,7 @@ hr{
   border: 1px solid rgba(214, 211, 211, 0.726);
   padding: 30px;
   text-align: center;
-  height: 200px; 
+  height: 200px;
 }
 .text-box-left{
   text-align: left;
@@ -354,7 +354,7 @@ hr{
 
 .image-text-big-float .img{
   width: 60%;
-  
+
 }
 
 
@@ -364,14 +364,14 @@ hr{
 
 .image-text-big-float h4{
   font-size: 30px;
-  
+
 }
 
 .image-text-big-float p{
   font-size: 15px;
   margin: 20px 0 40px 0;
   line-height: 20px;
-  
+
 }
 
 .image-text-big-float .text{
@@ -390,7 +390,7 @@ hr{
   margin-top: 60px;
   width: calc(100% / 3);
   padding-right: 40px;
- 
+
 }
 
 
@@ -404,11 +404,11 @@ hr{
 
 .box-operazioni img{
   width: 100%;
-  
-  
+
+
 }
 .operazioni h2{
-  
+
   font-size: 40px;
 }
 
@@ -427,7 +427,7 @@ hr{
 
 #scopre-di-più h1{
   margin-bottom: 90px;
-  
+
 }
 
 /* SECTION COLOR BOXES */
@@ -436,24 +436,89 @@ hr{
 .color-box{
   width: calc(100% / 3);
   height: 100%;
-  background-color: red;
-  border: 1px solid black;
-  aspect-ratio: 1.1;
-}
-
-.mini-box-color img{
-  width: 60%;
-  height: 100%;
-  
+  border: none;
+  aspect-ratio: 1.1; 
 }
 
 .mini-box-color{
 
   width: calc(100% / 2);
   height: auto;
-  border: 1px solid beige; 
-
 }
+
+.mini-box-color img{
+  width: 50%;
+  filter: invert(100%);
+}
+
+.color-box-middle{
+  background-color: var(--whitebigbox);
+}
+
+.color-box-middle img{
+  width: 50%;
+  
+}
+
+.box-middle-text{
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  
+}
+
+.box-middle-text :nth-child(4){
+  margin-top: 25px;
+}
+
+.box-middle-text hr{
+  width: 20%;
+}
+
+/* COLOR OF BOX */
+
+.design{
+  background-color: var(--greenbox);
+}
+
+.arizona{
+  background-color: var(--purplebox);
+}
+
+.florida{
+  background-color: var(--bluemiddle);
+}
+
+.topps{
+  background-color: var(--redtopps);
+}
+
+.world{
+  background-color: var(--purplebox);
+}
+
+.arizona{
+  background-color: var(--redworld);
+}
+
+.hearst{
+  background-color: var(--bluehearst);
+}
+
+.lonely{
+  background-color: var(--bluelonelu);
+}
+
+.clear{
+  background-color: var(--yellowclearchannel);
+}
+
+
+
+
+
 
 /* SECTION FOOTER BLUE */
 
@@ -481,6 +546,44 @@ hr{
   font-weight: bold;
   font-size: 15px;
 }
+
+/* SECTION OPZIONI */
+
+.hola h1{
+  padding: 100px 0 70px 0;
+}
+.opzioni-domande{
+  width: 100%;
+}
+
+.hola{
+  margin-bottom: 100px;
+}
+
+.option{
+  width: 100%;
+  padding: 35px 0;
+  display: inline;
+  border-top: 2px solid rgba(214, 211, 211, 0.726);
+  border-bottom: 2px solid rgba(214, 211, 211, 0.726);
+}
+
+.option p{
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-right: 30px;
+  
+}
+
+.option i{
+  float: right;
+  padding-left: 40px;
+  
+  
+}
+
+
 
 
 
