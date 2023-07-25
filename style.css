@@ -273,7 +273,8 @@ header{
   margin-top: 40px;
 }
 
-.col li{
+.col li {
+
   list-style: none;
   margin-bottom: 20px;
 
@@ -638,11 +639,18 @@ hr{
   margin-bottom: 30px;
 }
 
-.col-footer li{
+.col-footer li a{
   color: white;
+  text-decoration: none;
   list-style: none;
-  padding: 18px 0;
   font-size: 18px;
+}
+.col-footer li a:hover{
+  color: blueviolet;
+}
+
+.col-footer li{
+  margin: 25px 0;
 }
 
 .col-footer{
