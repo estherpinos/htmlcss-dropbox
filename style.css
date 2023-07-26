@@ -73,6 +73,7 @@ h3{
 .btn{
   padding: 8px 15px;
   border: none;
+  display: inline-block;
 
 }
 
@@ -250,10 +251,6 @@ header{
   
 }
 
-.list-col{
-
-  height: 20%;
-}
 
 .col h4{
   font-size: 25px;
@@ -286,6 +283,7 @@ header{
   color: white;
   margin-top: 30px;
   margin-bottom: 20px;
+  
   
 
 }
@@ -490,6 +488,8 @@ hr{
 
 .design{
   background-color: var(--greenbox);
+  box-shadow: inset  0 0 0 20px rgb(184, 243, 184);
+  
 }
 
 .arizona{
@@ -525,9 +525,13 @@ hr{
 }
 
 
-.design:hover{
-  border: 20px solid rgb(184, 243, 184);
+.mini-box-color:active {
+  box-shadow: inset  0 0 0 20px rgba(221, 224, 221, 0.671);
+
 }
+
+
+
 
 
 
@@ -580,6 +584,8 @@ hr{
 .option{
   width: 100%;
   padding: 35px 0;
+  cursor: pointer;
+  outline: none;
   display: inline;
   border-top: 2px solid rgba(214, 211, 211, 0.726);
   border-bottom: 2px solid rgba(214, 211, 211, 0.726);
@@ -600,19 +606,13 @@ hr{
   padding-left: 40px; 
 }
 
-.option{
-  opacity: 1;
-  
-}
-
 .text-opacity{
-  opacity: 0;
-  font-weight: lighter;
+  display: none;
 }
 
 
-.option:hover .text-opacity{
-  opacity: 1;
+.option p:hover ~ .text-opacity{
+  display: block;
 }
 
 
